@@ -2,13 +2,12 @@
 		<el-menu :default-active="this.$router.path" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose" :router="true">
 				<template v-for='(item,index) in routeData'>
 					<el-menu-item :index='item.path' :key="index">
-						{{item.name}}
+						{{item.name}}	
 					</el-menu-item>
 				</template>
 				
 			</el-menu>	
 </template>
-
 <script>
 	export default{
 		data(){
@@ -34,6 +33,36 @@
 						path:'mixins',
 						name:'vue混入'
 					},
+					{
+						path:'native',
+						name:'将原生事件绑定到组件'
+					},
+					{
+						path:'sync',
+						name:'.sync修饰符'
+					},
+					{
+						path:'directive',
+						name:'vue自定义指令',
+						
+					},
+					{
+						path:'directiveTips',
+						name:'自定义指令tips'
+					},
+					{
+						path:'rander',
+						name:'rander函数'
+					},
+					{
+						path:'jianrong',
+						name:'ie浏览器兼容问题整理'
+					},
+					{
+						path:'filter',
+						name:'vue过滤器'
+					}
+
 					
 				]
 			}

@@ -1,7 +1,9 @@
 <template>
-	<div>
+	<div class='box'>
 		<mixin1></mixin1>
 		<mixin2></mixin2>
+		<input class='input' type='text'>
+		<div class='title'>字体的大小</div>
 	</div>
 </template>
 
@@ -29,5 +31,18 @@
 	}
 </script>
 
-<style>
+<style lang='scss'>
+@import '../../assets/css/index.scss';
+.box{
+	background:$uni-color-primary;
+	width:300px;
+	height:300px;
+}
+.input{
+	@include setinput();
+}
+.title{
+	//@include size();
+	@include size(20px);
+}
 </style>

@@ -19,6 +19,11 @@
 		},
 		mounted(){
 			this.getName();
+		},
+		methods:{
+			setN(){
+				console.log('我是子组件方法');
+			}
 		}
 	}
 </script>

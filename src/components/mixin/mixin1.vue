@@ -10,6 +10,11 @@
 	import {myMixin} from '../../utils/mixins.js'
 	export default{
 		mixins:[myMixin],
+		data(){
+			return{
+				
+			}
+		}
 		
 	}
 </script>

@@ -53,13 +53,14 @@ export default {
 </script>
 
 <style>
+
 section {
     display: flex;
 }
 #app {
 		width: 1200px;
 		height: 500px;
-		border: 1px solid #ccc
+		border: 1px solid #ccc;
 	}
 	.el-aside{height:500px;border-right: 1px solid #ccc;}
 	.el-main{height:440px;}

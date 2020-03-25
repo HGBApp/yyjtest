@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<p>依赖注入</p>
-		<child></child>
+		<child ref='mychild'></child>
 		<button @click="toggleShow">点击</button>
 			<span>{{num}}</span>
 	</div>
@@ -19,6 +19,9 @@
 			return {
 				getName:this.getName
 			}
+		},
+		mounted(){
+			this.$refs.mychild.setN()
 		},
 		methods:{
 			getName(){
