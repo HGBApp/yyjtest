@@ -18,7 +18,11 @@ export default {
       routeData: [
         {
           path: "slot",
+<<<<<<< HEAD
           name: "slot插槽2224"
+=======
+          name: "slot插槽"
+>>>>>>> parent of bdd00e9... Revert "no message"
         },
         {
           path: "Modifier",
