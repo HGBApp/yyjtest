@@ -18,7 +18,7 @@ export default {
       routeData: [
         {
           path: "slot",
-          name: "slot"
+          name: "slot插槽"
         },
         {
           path: "Modifier",
